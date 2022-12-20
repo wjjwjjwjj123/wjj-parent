@@ -2,17 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>wjj-parent</artifactId>
+        <groupId>com.wjj</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.wjj</groupId>
-    <artifactId>wjj-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>step01</module>
-        <module>step02</module>
-        <module>step03</module>
-    </modules>
-    <packaging>pom</packaging>
+    <groupId>com.wjj.step03</groupId>
+    <artifactId>step03</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
